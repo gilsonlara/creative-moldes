@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Logo from '../ui/Logo';
-import { Instagram, Pinterest, Youtube } from 'lucide-react';
+import { Instagram, Camera, Youtube } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -48,7 +48,7 @@ const Footer = () => {
               </a>
               <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer"
                  className="hover:text-primary transition-colors" aria-label="Pinterest">
-                <Pinterest size={24} />
+                <Camera size={24} />
               </a>
               <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"
                  className="hover:text-primary transition-colors" aria-label="YouTube">
